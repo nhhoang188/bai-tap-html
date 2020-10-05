@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Form</title>
+</head>
+<body>
+<form action="simpleform" method="get">
+    <h1>Order Form</h1>
+    <p>Chọn Dòng Máy</p>
+    <select>
+    <option value = "Máy Tính">Acer</option>
+        <option>Dell</option>
+        <option>Macbook</option>
+        <option>HP</option>
+        <option>Lenovo</option>
+    </select>
+        <p>Bạn Có Khoảng Bao Nhiêu Tiền</p>
+        <input type="radio" name="tiền"/>1tr-3tr<br>
+        <input type="radio" name="tiền"/>3tr-6tr<br>
+        <input type="radio" name="tiền"/>6tr-10tr<br>
+        <input type="radio" name="tiền"/>10tr-20tr<br>
+        <h3>Tên Bạn<span style="color: red">*</span></h3>
+    <input type="text" name="tên" placeholder="Họ" size="12">
+    <input type="text" name="tên" placeholder="Tên" size="20">
+    <h3>Email:</h3>
+    <input type="text" name="email" size="40">
+    <h3>Số Điện Thoại<span style="color: red">*</span> </h3>
+    <input type = "text" name="phone1" size="5"/> -
+    <input type = "text" name="phone2" size="5"/> -
+    <input type = "text" name="phone3" size="5"/><br><br>
+    <input type="submit" value="Gửi Đi">
+</form>
+<style>
+    .wufoo {
+        font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+    }
+</style>
+<form method="get" action="simpleform.html" class = "wufoo">
+</body>
+</html>
