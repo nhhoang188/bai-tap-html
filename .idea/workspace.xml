@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce9920be-a764-45ec-91d6-76646fde07f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MouseEvent.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/btbien1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/btbien2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/btdkien1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/btmaytinhdongian.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chuyendoitiente.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/good-fast-cheap.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ibm.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifelse-demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifelse.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ketbanvoitao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loop-1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/maytinh1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nobita.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/quiz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/toantu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vdfor1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vidu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ce9920be-a764-45ec-91d6-76646fde07f2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,7 +19,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/vdfor1.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/bangcuuchuong.html" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1iJ2aRwNrRpeiEfqVEoMKTQnMFG" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -84,7 +63,7 @@
       <workItem from="1602205441228" duration="20720000" />
       <workItem from="1602426988531" duration="1135000" />
       <workItem from="1602464649466" duration="13338000" />
-      <workItem from="1602509400894" duration="828000" />
+      <workItem from="1602509400894" duration="1166000" />
     </task>
     <servers />
   </component>
