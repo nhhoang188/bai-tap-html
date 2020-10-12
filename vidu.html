@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<input type="number" id="number1">
+<input type="number" id="number2">
+<button onclick="sum()">Sum</button>
+<p id="result"></p>
+<script>
+
+    function sum(){
+        //prompt("Nhap so");
+        let num1 = document.getElementById("number1").value;
+        let num2 = document.getElementById("number2").value;
+        let result = num1 + num2;
+        // !alert(num);
+        document.getElementById('result').innerHTML = result;
+    }
+
+</script>
+</body>
+</html>

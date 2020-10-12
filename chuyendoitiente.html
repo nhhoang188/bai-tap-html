@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng chuyển đổi tiền tệ</title>
+</head>
+<body>
+<table width="500" height="50">
+    <tr>
+        <td align="center">Amount</td>
+        <td>From Currenncy</td>
+        <td>To Currenncy</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><input id="monney" type="text" size="10"></td>
+        <td><select id="fromCurren">
+            <option id="vnd1" value="23000">VietNam</option>
+            <option id="usd1" value="1">USD</option>
+            <option id="euro1" value="0.85">EURO</option>
+        </select></td>
+        <td><select id="toCurren">
+            <option id="usd2" value="1">USD</option>
+            <option id="vnd2" value="23000">VietNam</option>
+            <option id="euro2" value="0.85">EURO</option>
+        </select></td>
+        <td>
+            <button onclick="convert()">Convert</button>
+        </td>
+    </tr>
+</table>
+<p>Tỉ giá là:</p>
+<p id="result"></p>
+</body>
+<script>
+    function convert() {
+        let a = +document.getElementById("fromCurren").value;
+        let b = +document.getElementById("toCurren").value;
+        let c = +document.getElementById("monney").value;
+        let x = document.getElementById("vnd1").value;
+        let y = document.getElementById("usd1").value;
+        let z = document.getElementById("euro1").value;
+        let x1 = document.getElementById("vnd2").value;
+        let y1 = document.getElementById("usd2").value;
+        let z1 = document.getElementById("euro2").value;
+        let tien = +document.getElementById("monney").value;
+        let f=document.getElementById('result');
+        if (a == b) {
+            let kq = tien * (a / b);
+            document.getElementById('result').innerHTML = kq +"a";
+        } else if (a != b) {
+            if (a == x && b == y1) {
+                let kq1 = tien * (y1 / x) +"Usd" ;
+                 f.innerHTML= kq1;
+            } if (a == x && b == z1) {
+                let kq2 = tien * (z1 / x) +"Eur";
+                f.innerHTML= kq2;
+            } if (a == y && b == x1) {
+                let kq3 = (tien * x1 * y) +"Vnd";
+                f.innerHTML= kq3;
+            } if (a == y && b == z1) {
+                let kq4 = (tien * z1 * y) +"Euro";
+                f.innerHTML= kq4;
+            } if (a == z && b == y1) {
+                let kq5 = (tien / (z / y1)) +"Usd";
+                f.innerHTML= kq5;
+            } if (a == z && b == x1) {
+                let kq6 = (tien / (z / x1)) +"Vnd";
+                f.innerHTML= kq6;
+            }
+
+        }
+    }
+
+
+</script>
+</html>

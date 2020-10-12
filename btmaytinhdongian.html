@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>máy tính</title>
+</head>
+<body>
+<table width="433" height="370">
+    <tr>
+        <td align="right"  colspan="3"><input size="30" disabled type="text" id="ketqua"></td>
+
+    </tr>
+    <tr>
+        <td><button value="1" id="1" onclick="ketqua.value +=1">1</button></td>
+        <td><button value="2" onclick="ketqua.value +=2" >2</button></td>
+        <td><button value="3" onclick="ketqua.value +=3" >3</button></td>
+        <td><button value="+" onclick="ketqua.value += '+'" >+</button></td>
+    </tr>
+    <tr>
+        <td><button value="4" onclick="ketqua.value +=4" id="4">4</button></td>
+        <td><button value="5" onclick="ketqua.value +=5" >5</button></td>
+        <td><button value="6" onclick="ketqua.value +=6" >6</button></td>
+        <td><button value="-" onclick="ketqua.value +='-'"  id="-">-</button></td>
+    </tr>
+    <tr>
+        <td><button value="7" onclick="ketqua.value +=3" >7</button></td>
+        <td><button value="8" id="8" onclick="ketqua.value +=8" >8</button></td>
+        <td><button value="9" id="9" onclick="ketqua.value +=9" >9</button></td>
+        <td><button value="*" id="x" onclick="ketqua.value += '*'" >x</button></td>
+    </tr>
+    <tr>
+        <td><button onclick="xoa()" id="c">c</button></td>
+        <td><button value="0" id="0"  onclick="ketqua.value +=0" >0</button></td>
+        <td><button id="=" onclick="taoketqua()" >=</button></td>
+        <td><button value="/" onclick="ketqua.value +='/'" id="3" id="/">/</button></td>
+    </tr>
+</table>
+</body>
+<script>
+    let a= document.getElementById('ketqua').value;
+    function taoketqua(){
+
+    }
+</script>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bt thực Hành if-else</title>
+</head>
+<body>
+<script>
+    let year = +prompt("Nhập vào năm");
+    if (year % 4 == 0) {
+        if (year % 100 == 0){
+            if (year % 400 == 0) {
+                alert(year + "là năm nhuận"); }
+            else
+                {
+                    alert(year + "không là năm nhuận");
+                }
+            }else{
+                alert(year + "là năm nhuận")
+            }
+        } else {
+            alert(year + "không là năm nhuận");
+
+    }
+
+
+</script>
+</body>
+</html>

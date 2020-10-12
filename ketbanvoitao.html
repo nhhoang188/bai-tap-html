@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kết bạn với tao</title>
+</head>
+<body>
+<h1>Kết bạn với tao!</h1>
+<button id="1"><a href="https://www.facebook.com/nhhoang188" target="_blank" style="color: black" >ô cê</a></button>
+<button type="button" onmouseover="noclk()" id="2" style="position: absolute;">đéo</button>
+</body>
+<script>
+    function noclk() {
+        let x = Math.round(Math.random() * window.innerWidth);
+        let y = Math.round(Math.random() * window.innerHeight);
+        document.getElementById('2').style.left = x + 'px';
+        document.getElementById('2').style.top = y + 'px';
+    }
+</script>
+</html>

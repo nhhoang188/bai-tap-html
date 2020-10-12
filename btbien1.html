@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2><i>Nhập Điểm Các Môn Vào Ô</i></h2>
+<input type="text" id="sh" size="3" placeholder="sinh học">
+<input type="text" id="hh" size="3" placeholder="hoá học">
+<input type="text" id="vl" size="3" placeholder="vật lý"> <br> <br>
+<input type="button" onclick="tinhDTB()" value="tính điểm trung bình">
+<p id="dtb"></p>
+<input type="button" onclick="tinhTD()" value="tính tổng điểm">
+<p id="td"></p>
+
+</body>
+<script>
+    let sh = document.getElementById("sh");
+    let hh = document.getElementById("hh");
+    let vl = document.getElementById("vl");
+
+    function tinhDTB() {
+        let dtb = (Number(sh.value) + Number(hh.value) + Number(vl.value)) / 3;
+        document.getElementById('dtb').innerHTML = dtb;
+    }
+
+    function tinhTD() {
+        let a = +sh.value;
+        let b = +hh.value;
+        let c = +vl.value;
+        let td = a + b + c;
+        document.getElementById('td').innerHTML = td;
+    }
+</script>
+</html>

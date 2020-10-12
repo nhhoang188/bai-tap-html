@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng dụng máy tính</title>
+</head>
+<body>
+<h1><i>Calculator</i></h1>
+<input id="gt1" type="text" size="20">
+<input id="gt2" type="text" size="20"><br>
+<button onclick= "add()" value="Addition(+)">Addition(+)</button>
+<button onclick="sub()" value="Subtration(-)">Subtration(-)</button>
+<button onclick="multi()" value="Multiplication(x)">Multiplication(x</button>
+<button onclick="div()" value="Division(/)">Division(/)</button>
+<p id="result">Result:</p>
+</body>
+<script>
+    var gt1= document.getElementById("gt1");
+    var gt2= document.getElementById("gt2");
+    function add(){
+        let result= Number(gt1.value) + Number(gt2.value);
+        document.getElementById('result').innerHTML= result;
+    }
+    function sub(){
+        let result= Number(gt1.value) - Number(gt2.value);
+        document.getElementById('result').innerHTML= result;
+    }
+    function multi(){
+        let result= Number(gt1.value) * Number(gt2.value);
+        document.getElementById('result').innerHTML= result;
+    }
+    function div(){
+        let result= Number(gt1.value) / Number(gt2.value);
+        document.getElementById('result').innerHTML= result;
+    }
+</script>
+</html>
