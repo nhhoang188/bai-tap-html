@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="1"></p>
+<script>
+    let n=0
+    let tong=0;
+    for (let count=1;count<=30;count++){
+            tong+=n;
+            n+=7;
+            document.write( n + "<br>");
+    }
+    document.getElementById('1').innerHTML=("Tồng của chúng là: " + tong )
+</script>
+</body>
+</html>

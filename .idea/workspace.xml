@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce9920be-a764-45ec-91d6-76646fde07f2" name="Default Changelist" comment="" />
+    <list default="true" id="ce9920be-a764-45ec-91d6-76646fde07f2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/fizzbuzz.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gamedoanso.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loop1_bt1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loop1_bt6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/loophienthisonguyento.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +70,9 @@
       <workItem from="1602205441228" duration="20720000" />
       <workItem from="1602426988531" duration="1135000" />
       <workItem from="1602464649466" duration="13338000" />
-      <workItem from="1602509400894" duration="1166000" />
+      <workItem from="1602509400894" duration="3850000" />
+      <workItem from="1602553870265" duration="11149000" />
+      <workItem from="1602578754316" duration="2503000" />
     </task>
     <servers />
   </component>
@@ -74,10 +83,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="0" y="47" key="#Inspections" timestamp="1602466787630">
+    <state x="0" y="47" key="#Inspections" timestamp="1602581311134">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1602466787630" />
+    <state x="0" y="47" key="#Inspections/0.0.1366.738@0.0.1366.738" timestamp="1602581311134" />
     <state x="125" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601626801081">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

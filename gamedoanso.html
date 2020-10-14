@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button onclick="choi()">Chơi</button>
+<script>
+    function choi() {
+        let number = Math.floor(Math.random() * 100) + 1;
+        let num = 0;
+        let count = 0;
+        do {
+            num = +prompt("Nhap so du doan");
+            count++;
+            if (count >= 3) {
+                alert("Ban da het lan doan");
+                break;
+            }
+
+            if (num === number) {
+                alert("Ban da doan dung sau " + count + " lan doan");
+            }
+        } while (num !== number)
+        alert("kết quả là:" + number);
+    }
+</script>
+</body>
+</html>
