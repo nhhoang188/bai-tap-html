@@ -5,6 +5,26 @@
     <title>Title</title>
 </head>
 <body>
-
+<h1>Sample screen:</h1>
+<input id="txt" type="text" size="20">
+<button id="add" onclick="add_element()">Add</button>
+<button id="display" onclick="display_element()">Display</button>
+<div id="result"></div>
 </body>
+<script>
+    let x=0;
+    let array= Array();
+    function add_element() {
+        array[x]=document.getElementById('txt').value;
+        x++;
+        document.getElementById('txt').value = "";
+    }
+    function display_element() {
+        let e = "<hr/>";
+        for (let i = 0; i < array.length; i++) {
+            e += "Element " + i + " = " + array[i] + "<br/>";
+        }
+        document.getElementById("result").innerHTML = e;
+    }
+</script>
 </html>

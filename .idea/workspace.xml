@@ -1,13 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:origin/master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ce9920be-a764-45ec-91d6-76646fde07f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fizzbuzz.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gamedoanso.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loop1_bt1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loop1_bt6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loophienthisonguyento.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array-2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/array.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,11 +95,37 @@
       <workItem from="1602509400894" duration="3850000" />
       <workItem from="1602553870265" duration="11149000" />
       <workItem from="1602578754316" duration="2503000" />
+      <workItem from="1602640119981" duration="1423000" />
+      <workItem from="1602644041748" duration="2843000" />
+      <workItem from="1602729907464" duration="7667000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
@@ -103,10 +151,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="451" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601625821340" />
-    <state x="9" y="167" key="run.anything.popup" timestamp="1602212889424">
+    <state x="9" y="167" key="run.anything.popup" timestamp="1602640698045">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="9" y="167" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1602212889424" />
+    <state x="9" y="167" key="run.anything.popup/0.0.1366.738@0.0.1366.738" timestamp="1602640698045" />
     <state x="334" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1602082500340">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
