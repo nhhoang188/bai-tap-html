@@ -27,9 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce9920be-a764-45ec-91d6-76646fde07f2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/demo-array-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/array.html" beforeDir="false" afterPath="$PROJECT_DIR$/array.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-array-2" beforeDir="false" afterPath="$PROJECT_DIR$/demo-array-2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo-array-2/caro-game.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-array-2/caro-game.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +46,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/demo-array-2" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/bangcuuchuong.html" root0="FORCE_HIGHLIGHTING" />
@@ -97,7 +98,9 @@
       <workItem from="1602578754316" duration="2503000" />
       <workItem from="1602640119981" duration="1423000" />
       <workItem from="1602644041748" duration="2843000" />
-      <workItem from="1602729907464" duration="7667000" />
+      <workItem from="1602729907464" duration="8545000" />
+      <workItem from="1602757728290" duration="908000" />
+      <workItem from="1602773514751" duration="1571000" />
     </task>
     <servers />
   </component>
@@ -109,23 +112,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="FILTERS">
-                <map>
-                  <entry key="branch">
-                    <value>
-                      <list>
-                        <option value="origin/master" />
-                      </list>
-                    </value>
-                  </entry>
-                </map>
-              </option>
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
