@@ -27,10 +27,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce9920be-a764-45ec-91d6-76646fde07f2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array-2/array_dictionary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo-array-2/fake_typing.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/demo-array-2" beforeDir="false" afterPath="$PROJECT_DIR$/demo-array-2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/demo-array-2/caro-game.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo-array-2/caro-game.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -100,8 +101,18 @@
       <workItem from="1602644041748" duration="2843000" />
       <workItem from="1602729907464" duration="8545000" />
       <workItem from="1602757728290" duration="908000" />
-      <workItem from="1602773514751" duration="1571000" />
+      <workItem from="1602773514751" duration="1758000" />
+      <workItem from="1602810391028" duration="4221000" />
+      <workItem from="1602819458664" duration="630000" />
     </task>
+    <task id="LOCAL-00001" summary="1">
+      <created>1602775709075</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1602775709075</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,7 +123,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -120,7 +143,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="1" />
+    <option name="LAST_COMMIT_MESSAGE" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="0" y="47" key="#Inspections" timestamp="1602581311134">
@@ -135,14 +159,22 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="441" y="174" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.738@0.0.1366.738" timestamp="1601861220529" />
-    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1601908770920">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1602775703985">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1601908770920" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1602775703985" />
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog" timestamp="1602775853531">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="92" y="92" width="1182" height="554" key="DiffContextDialog/0.0.1366.738@0.0.1366.738" timestamp="1602775853531" />
     <state x="451" y="127" key="FileChooserDialogImpl" timestamp="1601625821340">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="451" y="127" key="FileChooserDialogImpl/0.0.1366.738@0.0.1366.738" timestamp="1601625821340" />
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2" timestamp="1602775714726">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="275" y="101" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1602775714726" />
     <state x="9" y="167" key="run.anything.popup" timestamp="1602640698045">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

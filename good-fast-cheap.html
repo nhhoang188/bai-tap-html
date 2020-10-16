@@ -1,26 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Title</title>
 </head>
 <body>
-<input id="good" type="checkbox" >good
-<input type="checkbox" id="fast" >fast
-<input type="checkbox" id="cheap" >cheap
-</body>
+<input type="checkbox" onclick="clickCheck(this.id)" id="good">Good
+<input type="checkbox" onclick="clickCheck(this.id)" id="fast">Fast
+<input type="checkbox" onclick="clickCheck(this.id)" id="cheap">Cheap
 <script>
-    let x=document.getElementById('good').checked;
-    let y=document.getElementById('fast').checked;
-    let z=document.getElementById('cheap').checked;
-    if (x == true && z == true){
-        document.getElementById('fast').innerHTML.checked= true;
-    } else if (x==false){
-        document.getElementById('fast').innerHTML= true;
-        document.getElementById('cheap').innerHTML= true;
+    function clickCheck(id) {
+        let good = document.getElementById("good");
+        let fast = document.getElementById("fast");
+        let cheap = document.getElementById("cheap");
+
+        switch (id) {
+            case "good":
+                if(good.checked && fast.checked){
+                    cheap.checked = false;
+                }
+                break;
+            case "fast":
+                if(cheap.checked && fast.checked){
+                    good.checked = false;
+                }
+                break;
+            case "cheap":
+                if(cheap.checked && good.checked){
+                    fast.checked = false;
+                }
+                break;
+        }
     }
 </script>
+</body>
 </html>

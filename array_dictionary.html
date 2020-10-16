@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dictionary</title>
+</head>
+<body>
+<input id="s1" type="text"> <button id="btn" onclick=searchDictionary()>tìm kiếm</button>
+<p id="result" ></p>
+</body>
+<script>
+    let arrayE= ["happy", "sad", "love", "hate", "ok", "good", "bad" ];
+    let arrayVn=["vui vẻ", "buồn", "yêu", "ghét", "ổn", "tốt", "xấu"];
+    function searchDictionary() {
+        for (i = 0; i <= arrayE.length; i++) {
+            let s1=document.getElementById('s1').value;
+            if(s1 === arrayE[i]){
+                document.getElementById('result').innerHTML= arrayE[i] + " nghĩa tiếng việt là: " + arrayVn[i];
+                break;
+            } else {
+                document.getElementById('result').innerHTML= "không tìm thấy";
+            }
+    }
+    }
+</script>
+</html>
